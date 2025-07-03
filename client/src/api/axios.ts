@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5001/api', // Make sure this matches your backend
+  baseURL: 'https://notes-app-ybi0.onrender.com/api', // deployed backend
   headers: {
     'Content-Type': 'application/json',
   },
